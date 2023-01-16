@@ -10129,6 +10129,11 @@ body {
     height: 290px;
   }
 }
+@media (max-width: 1279px) {
+  .category.top-over img {
+    height: 190px;
+  }
+}
 
 .category.bottom-over {
   margin-bottom: 12px;
@@ -10156,13 +10161,15 @@ body {
 
 @media (min-width: 1280px) {
   .category.bottom-over img {
+    margin-top: 90px;
     height: 320px;
   }
 }
 
-@media (min-width: 960px) {
+@media (max-width: 1279px) {
   .category.bottom-over img {
-    margin-top: 100px;
+    margin-top: 10px;
+    height: 190px;
   }
 }
 
